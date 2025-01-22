@@ -1,0 +1,13 @@
+fn main() {
+  
+/*
+Add a println! macro call that prints: Pi is roughly 3.142 by controlling the number of decimal places shown. 
+For the purposes of this exercise, use let pi = 3.141592 as an estimate for pi. 
+(Hint: you may need to check the std::fmt documentation for setting the number of decimals to display)
+*/
+
+ let pi = 3.141592;
+ println!("Pi is roughly {:.3}", pi);
+ }
+
+ // Output is: Pi is roughly 3.142
