@@ -1,0 +1,7 @@
+fn main() {
+    println!("Howdy! I'm Scotty. I'm taking the 'Master the Rust Programming Language' on Udemy by Boris Paskhaver.");
+    println!("I spent about 45 minutes yesterday trying to figure out how to round a number to three decimal places.");
+    println!("I'm uploading all the things that I'm doing in the course to my GitHub to show progress.");
+    println!("Fingers crossed, I'll stick with it this time haha.");
+    println!("Fun fact, if you remove all the 'ln' in the print macros, it prints everything on one line as opposed to new lines.");
+}
