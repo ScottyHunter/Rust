@@ -1,0 +1,7 @@
+fn main() {
+    // this is a comment, it won't be printed when you run the program
+    /*
+    this is also a comment, but blockier!
+    */
+    println!("Now you know about comments!");
+}
