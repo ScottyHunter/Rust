@@ -1,0 +1,10 @@
+fn main() {
+    let apples = 50;
+    let oranges = 14 + 6;
+    let _fruits = apples + oranges; // the _ in front of fruits supresses any warnings that might yell at you for not using this variable.
+
+    println!(
+        "This year, my orchard has {0} apples and {1} oranges. {0} is a lot of apples!."
+        apples, oranges  //apples{0} and oranges{1}. Can reuse {0} in the second sentence above so it doesn't look like this: apples, oranges, apples
+    );
+}
