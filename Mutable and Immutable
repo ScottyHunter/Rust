@@ -1,0 +1,14 @@
+fn main() {
+    let gym_reps = 10; //immutable
+    println!("I plan to do {gym_reps} reps");
+}
+
+I know this has two mains; just putting both in here to show the difference. 
+
+fn main() {
+    let mut gym_reps = 10; // mutable
+    println!("I plan to do {gym_reps} reps");
+
+    gym_reps = 15;
+    println!("I now plan to do {gym_reps} reps");
+}
