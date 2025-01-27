@@ -1,0 +1,24 @@
+Variable shadowing means redeclaring a variable. The original variable is "replaced" by the new one.
+
+fn main() {
+    let grams_of_protein = "100.345"; // string, because double quotes
+    let grams_of_protein = 100.345; // float, because decimal
+    let mut grams_of_protein = 100; // integer, no decimal, no double quotes
+    grams_of_protein = 105; // can only be replaced by integer type.
+}
+
+Still looking to see if there is a way to print the type of variable to the screen before the variable is reused.
+Example:
+
+fn main() {
+    let grams_of_protein = "100.345"; //string, because double quotes
+    println!(this variable is a string);
+
+    let grams_of_protein = 100.345; //float, because decimal
+    println!(this variable is a float);
+
+    let mut grams_of_protein = 100; //integer, no decimal, no double quotes
+    println!(this variable is an integer);
+
+    grams_of_protein = 105;
+}
