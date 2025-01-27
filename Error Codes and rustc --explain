@@ -1,0 +1,23 @@
+// If you run into an error, you can use rustc --explain and the error code for a brief explanation
+// Example
+
+rustc --explain E0384
+
+An immutable variable was reassigned.
+
+Erroneous code example:
+
+fnmain() {
+    let x = 3;
+    x = 5; // error, reassignment of immutable variable
+}
+
+By default, variables in Rust are immutable. To fix this error, add
+the keyword mut after the keyword let when declaring the variable. For
+example:
+
+fn main() {
+    let mut x = 3;
+    x = 5;
+}
+(END)
