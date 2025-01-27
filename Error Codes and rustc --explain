@@ -21,3 +21,6 @@ fn main() {
     x = 5;
 }
 (END)
+
+OR, you can go to https://doc.rust-lang.org/error_codes/error-index.html
+Find your error code, click it, and see what it means.
